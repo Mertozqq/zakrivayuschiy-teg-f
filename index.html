@@ -77,7 +77,7 @@
             <img
               src="./images/fear-of-the-whitelist.png"
               alt="Картинка с пустым листом. Что будет дальше?"
-              class="card__image whitelist__image"
+              class="card__image filter__greyscale"
             />
             <span class="card__image__label">/НАЧАЛО</span>
           </div>
@@ -121,7 +121,7 @@
             <img
               src="./images/if-i-cant.png"
               alt="Картинка с надписью А если не получится? и задумчивый человек"
-              class="card__image if__i__cant__image"
+              class="card__image filter__invert filter__greyscale"
             />
             <span class="card__image__label">CSS</span>
           </div>
@@ -162,7 +162,7 @@
             <img
               src="./images/follow-the-ideal.png"
               alt="Картинка с надписью 2 спринт: Погоня за идеалом"
-              class="card__image ideals__image"
+              class="card__image filter__sepia"
             />
             <span class="card__image__label">&lt;desigions&gt;</span>
           </div>
@@ -206,7 +206,7 @@
             <img
               src="./images/about-closers.png"
               alt="Картинка с надписью 2 спринт: О тех, кто рядом. и крутым человеком"
-              class="card__image about__closers__image"
+              class="card__image filter__saturate"
             />
             <span class="card__image__label">Care</span>
           </div>
@@ -253,7 +253,7 @@
             <img
               src="./images/another-ways.png"
               alt="Картинка с надписью 3 спринт: Обходные стратегии и графиком"
-              class="card__image support__image"
+              class="card__image filter__brightness"
             />
             <span class="card__image__label">&lt;support&gt;</span>
           </div>
@@ -294,7 +294,7 @@
             <img
               src="./images/hands-down.png"
               alt="Картинка с программистом"
-              class="card__image lifestyle__image"
+              class="card__image filter__greyscale__blur"
             />
             <span class="card__image__label">&lt;life-style: none;&gt;</span>
           </div>
@@ -337,7 +337,7 @@
             <img
               src="./images/im-here.png"
               alt="Картинка с закатом и героем"
-              class="card__image experience__image"
+              class="card__image filter__saturate"
             />
             <span class="card__image__label">&lt;/experience&gt;</span>
           </div>
@@ -375,7 +375,7 @@
           </div>
         </article>
       </section>
-      <section class="section">
+      <div>
         <div class="save__button__container">
           <button
             class="button save__button"
@@ -393,7 +393,7 @@
               >Сохранить на память</span
             >
           </button>
-
+  
           <dialog class="save-dialog" id="dialog-id">
             <svg
               class="dialog__image"
@@ -411,7 +411,9 @@
             </button>
           </dialog>
         </div>
-      </section>
+      </div>
+      
+      
     </main>
     <script src="./scripts/like.js"></script>
   </body>
