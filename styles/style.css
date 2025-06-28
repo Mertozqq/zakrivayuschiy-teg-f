@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   min-inline-size: var(--block__width);
-  min-block-size: var(--header__height);
+  min-block-size: 364px;
   align-items: center;
   justify-content: center;
   background-color: white;
@@ -419,6 +419,9 @@ dialog::backdrop {
     justify-content: unset;
     box-sizing: border-box;
   }
+  .header__container {
+    min-block-size: 327px;
+  }
   .card__image__label {
     right: 10px;
   }
@@ -448,5 +451,4 @@ dialog::backdrop {
     max-inline-size: clamp(68.53vw, 257px, 68.54vw);
     padding: 11px 114px;
   }
-
 }

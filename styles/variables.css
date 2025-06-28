@@ -9,7 +9,7 @@
   --header__height: clamp(327px, 38.1vh, 50vh);
   --header__font-size: clamp(3.0625rem, 2.6966rem + 1.561vw, 4.0625rem);
   --header__text__font-size: clamp(0.875rem, 0.6692rem + 0.878vw, 1.4375rem);
-  --bg__image: 
+  --bg__image:
     repeating-linear-gradient(
       to right,
       #d3d3d3,
