@@ -168,7 +168,6 @@ svg {
   background-color: inherit;
   border: none;
   cursor: pointer;
-  margin-right: 0;
   overflow: visible;
 
   transition: border 0.3s ease;
@@ -312,16 +311,16 @@ svg {
   box-shadow: 2px 2px 0 var(--accent__color);
 }
 
-.card__like-button { 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: inherit; 
- 
-  box-sizing: border-box; 
-  border: 2px solid var(--accent__color); 
-  min-inline-size: 130px; 
-  min-block-size: 36px; 
+.card__like-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+
+  box-sizing: border-box;
+  border: 2px solid var(--accent__color);
+  min-inline-size: 130px;
+  min-block-size: 36px;
 }
 
 .like__button__text {
@@ -441,7 +440,7 @@ dialog::backdrop {
     height: 28px;
   }
   .save-dialog[open] {
-    column-gap: 18px; 
+    column-gap: 18px;
     padding: 30px 40px;
   }
 
